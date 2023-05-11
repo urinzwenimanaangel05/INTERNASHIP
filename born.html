@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	<style type="text/css">
+		select{
+			background-color: pink;
+			width: 120px;
+			height: 30px;
+			font-weight: bold;
+			font-size: 14px;
+			font-family: Arial;
+			border-radius: 5px;
+			color: white;
+		}
+		.btn {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: blue;
+  color: white;
+}
+		body{
+			background-image: url(download1.jpg);
+		}
+		input{
+			border-color: pink;
+			border-radius: 5px
+		}
+		option{
+			background-color: white;
+			color: black;
+		}
+		   footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+}
+		div{
+			width: 600px;
+			height: 465px;
+			background-color: transparent; 
+			box-shadow: 1px,1px,5px,black;
+			border-color: green;
+		}
+		fieldset{
+			width: 600px;
+			height: 600px;
+			background-color: skyblue;
+			border-radius: 8%;
+		}
+		ol{display: none;}
+     li{
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+		}
+		ul li{
+			float: left;
+			border:4px;
+			margin-left: 4px;
+			text-align:  center;
+			width: 270px
+			font-size:40px;
+			color: blue;
+			background-color: yellow;
+			border-radius: 15px;
+			text-transform: uppercase;
+			font-family:algerian; 
+			padding: 20px
+		}
+		ul li:hover>ol{
+			display: block;
+
+		}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+		ol li{
+			background-color: pink;
+			font-size: 18px;
+			font-color:pink;
+		}
+		div{
+			background-color: blue;
+			height:110px;
+			width: 1400px;
+			margin-left: 5px
+			border-radius:25px;
+			color:gold;
+		}
+		  input{color: blue}
+		h1{
+			font-family: aerial;
+			color:gold;
+            font-size: 24px;
+
+
+	</style>
+</head>
+<body>
+	<div>
+		<center>
+<ul>
+	<li>CIVIL STATUS
+		<ol>
+			<li><a href="born.html">REGISTRATION FOR BORN </li>
+			<li><a href="married.html">MARRIAGE FORM</a></li>
+			<li> <a href="daeth.html">DEATH FORM</a></li>
+			<li><a href="heal.html">ID SERVICE</a></li>
+		</ol>
+	</li>
+	<li>ECONOMY</li>
+	<li><a href="land.html">LAND MANAGEMENT</li>
+	<li>TAXES AND DUTIES</li>
+	<li ><a href="agricul.html">AGRICULTURE</li>
+	<li><a href="educ.html">EDUCATION</li>
+	<li>HYGIENE AND SANITATION</li></div>
+	<br>
+</ul>
+<div style="height:100px;width: 75px;border-radius: 7px;border-color: blue;margin-left: 1000px;box-shadow: 0PX 4PX 9PX 6px rgba(0 ,6,0,7)"><img src="bb.jpg"></div>
+<div style="height:100px;width: 75px;border-radius: 7px;border-color: blue;margin-right:  1000px;box-shadow: 0PX 4PX 9PX 6px rgba(0 ,6,0,7)"><img src="bo.jpg"></div>
+<center><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+	<fieldset><U>REGISTRATION FOR BORN</U>
+<div>
+<form>
+<input type="text" name="name"placeholder="child names">
+<label>NAMES OF CHILD</label><br><br><br>
+<input type="text" name="name" placeholder="father names">
+<label>FATHER OF CHILD</label><br><br><br>
+
+
+
+<input type="number" name="id" value="id"placeholder="father id">
+<LABEL>FATHER ID</LABEL><br><br><br>
+
+<input type="text" name="name"placeholder="mother names">
+<label>MOTHER OF CHILD</label><br><br><br>
+
+<input type="number" name="id" value="id"placeholder="mother id">
+<label>MOTHER ID</label><br><br><br>
+<input type="date" name="dob" value="date">
+<label>DATE OF BIRTH</label><br><br><br>
+<label>GENDER</label>
+<input type="radio" name="female" value="f">F<input type="radio" name="male" value="M">M<br><br><br>
+<input type="text" name="name"placeholder="village">
+<LABEL>VILLAGE</LABEL><br><br><br>
+<input type="text" name="name"placeholder="cell">
+	<LABEL>CELL</LABEL><br><br><br>
+<input type="text" name="name"placeholder="sector">
+<label>SECTOR</label><br><br><br>
+<label>DISTRICT</label>
+<select value="umu">
+	<OPTGROUP label="WESTERN">
+	<option value="hdgdg">RUBAVU</option>
+    <option value="hdgdg">NYAMASHEKE</option>
+    <option value="hdgdg">KARONGI</option>
+    <option value="hdgdg">RUSIZI</option>
+    <option value="hdgdg">NGORORERO</option>
+    <option value="hdgdg">NYABIHU</option>
+    <option value="hdgdg">RUTSIRO</option>
+    </OPTGROUP>
+    
+    <OPTGROUP label="EASTERN">
+    <option value="hdgdg">RWAMAGANA</option>
+    <option value="hdgdg">KIREHE</option>
+    <option value="hdgdg">KAYONZA</option>
+    <option value="hdgdg">BUGESERA</option>
+    <option value="hdgdg">NYAGATARE</option>
+    <option value="hdgdg">GATSIBO</option>
+    <option value="hdgdg">NGOMA</option>
+    </OPTGROUP>
+     <OPTGROUP label="NOTHERN">
+    <option value="hdgdg">MUSANZE</option>
+    <option value="hdgdg">GICUMBI</option>
+    <option value="hdgdg">GAKENKE</option>
+    <option value="hdgdg">RULINDO</option>
+    <option value="hdgdg">BURERA</option>
+    </OPTGROUP>
+    <OPTGROUP label="SOUTHERN">
+    <option value="hdgdg">MUHANGA</option>
+    <option value="hdgdg">KAMONYI</option>
+    <option value="hdgdg">RUHANGO</option>
+    <option value="hdgdg">NYANZA</option>
+    <option value="hdgdg">HUYE</option>
+    <option value="hdgdg">NYAMAGABE</option>
+    <option value="hdgdg">NYARUGURU</option>
+    <option value="hdgdg">GISAGARA</option>
+    <OPTGROUP label="KIGALI CITY">
+    <option value="hdgdg">GASABO</option>
+    <option value="hdgdg">NYARUGENGE</option>
+    <option value="hdgdg">KICUKIRO</option>
+    </OPTGROUP>
+</select><br><br>
+<input type="submit" name="send"value="SEND">
+<input type="RESET" name="DELETE"value="RESET">
+</form>
+</div>
+</fieldset>
+<div style="height:100px;width: 75px;border-radius: 7px;border-color: blue;margin-left: 1000px"><img src="bb.jpg"></div>
+<div style="height:100px;width: 75px;border-radius: 7px;border-color: blue;margin-right:  1000px"><img src="bo.jpg"></div>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<button class="btn"><a href="index.html">BACK TO HOME</a></button>
+</center>
+<footer><p>&COPYRIGHT ARE RESERVED BY urinzwenimanaangel05@gmail.com</p>
+            <p>PUBLISHED BY ANGEL URINZWENIMANA</p>
+            <p><img src="ig.jpg" height="40PX"width="40px">follow me on instagram:URINZWENIMANA ANGELLO</p>
+            <p><img src="fbG.jpg" height="40PX"width="40px">write for me on facebook:THENDO ANGE</p>
+             <P>CONTACT ME ON 0782091444</P>
+	</footer>
+
+</body>
+</html>
